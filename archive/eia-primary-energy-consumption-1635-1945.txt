@@ -1,0 +1,140 @@
+Estimated Primary Energy
+Consumption in the United
+States, Selected Years, 1635–
+1945
+October 2026
+
+
+
+
+                                     www.eia.gov
+                         U.S. Department of Energy
+                             Washington, DC 20585
+The U.S. Energy Information Administration (EIA), the statistical and analytical agency within the
+U.S. Department of Energy (DOE), prepared this report. By law, our data, analyses, and forecasts are
+independent of approval by any other officer or employee of the U.S. Government. The views in this
+report do not represent those of DOE or any other federal agencies
+                                                                                                                                          October 2026
+
+ Estimated primary energy consumption in the United States, selected years, 1635–1945
+ Quadrillion Btu
+                         Fossil Fuels                                               Renewable energy
+                                                                                                     Biomass
+
+                                                                             Conventional
+                                   Natural                                   hydroelectric                                        Electricity
+                           Coal       gas       Petroleum            Total         power              Wood a          Total     net importsb     Total
+ 1635 ..............         NA           ––           ––              NA                ––                (s)           (s)             ––        (s)
+ 1645 ..............         NA           ––           ––              NA                ––             0.001        0.001               ––      0.001
+ 1655 ..............         NA           ––           ––              NA                ––             0.002        0.002               ––      0.002
+ 1665 ..............         NA           ––           ––              NA                ––             0.005        0.005               ––      0.005
+ 1675 ..............         NA           ––           ––              NA                ––             0.007        0.007               ––      0.007
+ 1685 ..............         NA           ––           ––              NA                ––             0.009        0.009               ––      0.009
+ 1695 ..............         NA           ––           ––              NA                ––             0.014        0.014               ––      0.014
+ 1705 ..............         NA           ––           ––              NA                ––             0.022        0.022               ––      0.022
+ 1715 ..............         NA           ––           ––              NA                ––             0.037        0.037               ––      0.037
+ 1725 ..............         NA           ––           ––              NA                ––             0.056        0.056               ––      0.056
+ 1735 ..............         NA           ––           ––              NA                ––              0.08          0.08              ––       0.08
+ 1745 ..............         NA           ––           ––              NA                ––             0.112        0.112               ––      0.112
+ 1755 ..............         NA           ––           ––              NA                ––             0.155        0.155               ––      0.155
+ 1765 ..............         NA           ––           ––              NA                ––                0.2          0.2              ––        0.2
+ 1775 ..............         NA           ––           ––              NA                ––             0.249        0.249               ––      0.249
+ 1785 ..............         NA           ––           ––              NA                ––              0.31          0.31              ––       0.31
+ 1795 ..............         NA           ––           ––              NA                ––             0.402        0.402               ––      0.402
+ 1805 ..............         NA           ––           ––              NA                ––             0.537        0.537               ––      0.537
+ 1815 ..............         NA           ––           ––              NA                ––             0.714        0.714               ––      0.714
+ 1825 ..............         NA           ––           ––              NA                ––              0.96          0.96              ––       0.96
+ 1835 ..............         NA           ––           ––              NA                ––             1.305        1.305               ––      1.305
+ 1845 ..............         NA           ––           ––              NA                ––             1.757        1.757               ––      1.757
+ 1850 ..............      0.219           ––           ––           0.219                ––             2.138        2.138               ––      2.357
+ 1855 ..............      0.421           ––           ––           0.421                ––             2.389        2.389               ––       2.81
+ 1860 ..............      0.518           ––        0.003           0.521                ––             2.641        2.641               ––      3.162
+ 1865 ..............      0.632           ––         0.01           0.642                ––             2.767        2.767               ––      3.409
+ 1870 ..............      1.048           ––        0.011           1.059                ––             2.893        2.893               ––      3.952
+ 1875 ..............       1.44           ––        0.011           1.451                ––             2.872        2.872               ––      4.323
+ 1880 ..............      2.054           ––        0.096            2.15                ––             2.851        2.851               ––      5.001
+ 1885 ..............       2.84         0.082        0.04           2.962                ––             2.683        2.683               ––      5.645
+ 1890 ..............      4.062         0.257       0.156           4.475             0.001             2.515        2.516               ––      6.991
+ 1895 ..............       4.95         0.147       0.168           5.265             0.003             2.306        2.309               ––      7.574
+ 1900 ..............      6.841         0.252       0.229           7.322              0.01             2.015        2.025               ––      9.347
+ 1905 ..............     10.001         0.372        0.61          10.983             0.017             1.843          1.86              ––     12.843
+ 1910 ..............     12.714          0.54       1.007          14.261             0.029             1.765        1.794               ––     16.055
+ 1915 ..............     13.294         0.673       1.418          15.385             0.045             1.688        1.733             0.002     17.12
+ 1920 ..............     15.504         0.813       2.676          18.993             0.064              1.61        1.674             0.003     20.67
+ 1925 ..............     14.706         1.191         4.28         20.177             0.087             1.533          1.62            0.004    21.801
+ 1930 ..............     13.639         1.932       5.897          21.468             0.122             1.455         1.577            0.005     23.05
+U.S. Energy Information Administration | Estimated Primary Energy Consumption in the United States, Selected Years, 1635–1945              1
+                                                                                                                                   October 2026
+ 1935 ..............     10.634       1.919         5.675          18.228             0.146             1.397         1.543     0.005    19.776
+ 1940 ..............     12.535       2.665           7.76          22.96             0.171             1.358         1.529     0.007    24.496
+ 1945 ..............     15.972      3.871         10.11         29.953            0.289         a1.261         1.55           0.009      31.512
+ a There is a discontinuity in the "Wood" time series between 1945 (in this table) and 1949 (in Monthly Energy Review Table 10.1). Through 1945,
+
+ data are for fuelwood only; beginning in 1949, data are for wood and wood-derived fuels.
+ b Electricity transmitted across U.S. borders. Net imports equal imports minus exports.
+
+ NA=Not available. – – =Not applicable. (s)=Less than 0.5 trillion Btu.
+
+ Notes: • For years not shown, data are not available. • See Monthly Energy Review Tables 1.3 and 10.1 for continuation of these data series
+ beginning in 1949. • See Note, "Geographic Coverage of Statistics for 1635–1945," at end of section.
+ Sources: • Fossil Fuels: Energy in the American Economy, 1850–1975, Table VII. • Conventional Hydroelectric Power: Energy in the American
+ Economy, 1850–1975, Table I. Data are converted to Btu by multiplying by 3,412 Btu per kilowatthour. • Wood: 1635–1845—U.S. Department
+ of Agriculture, Circular No. 641, Fuel Wood Used in the United States 1630–1930, February 1942. This source estimates fuelwood consumption
+ in cords per decade, which were converted to Btu using the conversion factor of 20 million Btu per cord. The annual average value for each
+ decade was assigned to the fifth year of the decade on the assumption that annual use was likely to increase during any given decade and the
+ average annual value was more likely to reflect mid-decade yearly consumption than use at either the beginning or end of the decade. Values
+ thus begin in 1635 and are plotted at 10-year intervals. 1850–1945—Energy in the American Economy, 1850–1975, Table VII. • Electricity Net
+ Imports: Energy in the American Economy, 1850–1975, Tables I and VI. Electricity net imports are assumed to equal hydroelectric consumption
+ minus hydroelectric production (data are converted to Btu by multiplying by 3,412 Btu per kilowatthour).
+
+
+
+
+U.S. Energy Information Administration | Estimated Primary Energy Consumption in the United States, Selected Years, 1635–1945      2
+                                                                                                                      October 2026
+
+
+Note. Geographic Coverage of Statistics for 1635–1945.
+This table presents estimates of U.S. energy consumption by energy source for a period that begins a
+century and a half before the original 13 colonies formed a political union and continues through the
+decades when the United States was still expanding territorially. So, what exactly do we mean by
+“U.S. consumption” of an energy source for those years when the United States did not formally
+exist or consisted of less territory than now?
+
+We carefully reviewed the documents used to assemble the estimates, and (as far as possible) the
+sources of those documents, for clues to geographic coverage. For most energy sources, coverage
+expanded more rapidly than the nation, defined as all official states and the District of Columbia.
+Estimates or measurements of consumption of each energy source generally appear to follow
+settlement patterns. Populations made energy sources in areas of the continent settled enough to
+have economically significant consumption even though those areas were not to become states for
+years. The wood data series, for example, begins in 1635 and includes 12 of the original colonies
+(except Georgia) as well as Maine, Vermont, and the area that would become the District of
+Columbia. By the time the series reaches 1810, the rest of the Lower 48 continental states are all
+included, although the last of these did not achieve statehood until 1912. Likewise, the coal data
+series begins in 1850 but includes consumption in areas, such as Utah and Washington (state) that
+were significant coal-producing regions but had not yet attained statehood. However, no data were
+available on state-level historical coal consumption. The coal data in this table through 1945 describe
+apparent consumption, that is production plus imports minus exports. The geographic coverage for
+coal was based on a tally of coal-producing states listed in various historical issues of Minerals
+Yearbook. Coal was likely to have been consumed in states where it was not mined in significant
+quantities.
+
+By energy source, the extent of coverage summary includes:
+
+• Coal—35 coal-producing states by 1885
+
+• Natural Gas—All Lower 48 states, the District of Columbia, and Alaska by 1885
+
+• Petroleum—All Lower 48 states, the District of Columbia, and Alaska by 1885
+
+• Conventional Hydroelectric Power—Coverage for 1890 and 1895 is uncertain, but probably the Lower
+48 states and the District of Columbia; coverage for 1900–1945 was the Lower 48 states and the District
+of Columbia
+
+• Wood—All Lower 48 states and the District of Columbia by 1810
+
+
+
+
+U.S. Energy Information Administration | Estimated Primary Energy Consumption in the United States, Selected Years, 1635–1945    3
+

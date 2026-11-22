@@ -1,0 +1,76 @@
+{
+  "name": "us-energy-consumption-by-source",
+  "title": "US Primary Energy Consumption by Source, 1635-2025",
+  "description": "US primary energy consumption by source (coal, natural gas, petroleum, nuclear, hydroelectric, geothermal, solar, wind, wood, biomass) in quadrillion Btu, from the US Energy Information Administration (EIA). EIA's historical estimates for selected years 1635-1945 (every 10 years to 1845, every 5 years from 1850) are joined, unchanged and not interpolated, with EIA's annual series for 1949-2025 from Monthly Energy Review Table 1.3 (wood from Table 10.1). Each row records the EIA table it comes from. There are no figures for 1946-1948.",
+  "status": "structured",
+  "licenses": [
+    {
+      "name": "US-PD",
+      "title": "Public domain: work of the US federal government. EIA: \"U.S. government publications are in the public domain and are not subject to copyright protection.\" EIA asks for an acknowledgment that includes the publication date.",
+      "path": "https://www.eia.gov/about/copyrights_reuse.php"
+    }
+  ],
+  "sources": [
+    {
+      "title": "EIA, Estimated Primary Energy Consumption in the United States, Selected Years, 1635-1945 (October 2026; formerly Monthly Energy Review Appendix D, Table D1)",
+      "path": "https://www.eia.gov/energyexplained/us-energy-facts/estimated-consumption-1635-1945.php"
+    },
+    {
+      "title": "EIA, Monthly Energy Review, Table 1.3 Primary Energy Consumption by Source (October 2026)",
+      "path": "https://www.eia.gov/totalenergy/data/browser/index.php?tbl=T01.03"
+    },
+    {
+      "title": "EIA, Monthly Energy Review, Table 10.1 Renewable Energy Production and Consumption by Source (October 2026), for wood from 1949",
+      "path": "https://www.eia.gov/totalenergy/data/browser/index.php?tbl=T10.01"
+    }
+  ],
+  "upkeep": { "mode": "frozen", "snapshot": "2026-11-22" },
+  "resources": [
+    {
+      "path": "data/energy-consumption.csv",
+      "name": "energy-consumption",
+      "title": "US primary energy consumption by source and year",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          { "name": "year", "type": "integer", "description": "Calendar year. 1635-1845: every 10 years (each value is the annual average of the decade, assigned by EIA to the decade's fifth year). 1850-1945: every 5 years. 1949-2025: every year. No data for 1946-1948." },
+          { "name": "source", "type": "string", "description": "Energy source: coal, natural_gas, petroleum, fossil_fuels_total, nuclear, hydroelectric, geothermal, solar, wind, wood, biomass_total, renewables_total, electricity_net_imports (1915-1945 only), total_primary.", "constraints": { "enum": ["coal", "natural_gas", "petroleum", "fossil_fuels_total", "nuclear", "hydroelectric", "geothermal", "solar", "wind", "wood", "biomass_total", "renewables_total", "electricity_net_imports", "total_primary"] } },
+          { "name": "quadrillion_btu", "type": "number", "description": "Primary energy consumption in quadrillion (10^15) British thermal units, as published by EIA (3 decimals for 1635-1945, full precision for 1949 on). Empty when EIA prints (s), less than 0.5 trillion Btu (see flag)." },
+          { "name": "flag", "type": "string", "description": "s = EIA prints (s), less than 0.5 trillion Btu, so the value is left empty. Otherwise empty." },
+          { "name": "is_total", "type": "boolean", "description": "true for the subtotal and total rows (fossil_fuels_total, biomass_total, renewables_total, total_primary). Do not add these to the individual sources." },
+          { "name": "source_table", "type": "string", "description": "EIA table the value comes from: D1-1635-1945 (historical estimates, selected years), MER-1.3 (Monthly Energy Review Table 1.3) or MER-10.1 (Monthly Energy Review Table 10.1, wood only, converted from trillion Btu).", "constraints": { "enum": ["D1-1635-1945", "MER-1.3", "MER-10.1"] } }
+        ],
+        "primaryKey": ["year", "source"]
+      }
+    }
+  ],
+  "views": [
+    {
+      "name": "consumption-by-source-chart",
+      "title": "US primary energy consumption by source, 1635-2025 (quadrillion Btu)",
+      "resources": ["energy-consumption"],
+      "specType": "vega-lite",
+      "spec": {
+        "width": "container",
+        "height": 340,
+        "transform": [
+          { "filter": { "field": "source", "oneOf": ["wood", "coal", "petroleum", "natural_gas", "nuclear"] } },
+          { "filter": "datum.quadrillion_btu !== null && datum.quadrillion_btu !== ''" }
+        ],
+        "mark": { "type": "line", "point": { "size": 12 } },
+        "encoding": {
+          "x": { "field": "year", "type": "quantitative", "axis": { "format": "d", "title": "Year" } },
+          "y": { "field": "quadrillion_btu", "type": "quantitative", "axis": { "title": "Quadrillion Btu" } },
+          "color": { "field": "source", "type": "nominal", "title": "Source", "sort": ["wood", "coal", "petroleum", "natural_gas", "nuclear"] },
+          "tooltip": [
+            { "field": "year", "type": "quantitative", "format": "d" },
+            { "field": "source", "type": "nominal" },
+            { "field": "quadrillion_btu", "type": "quantitative", "format": ".3f" },
+            { "field": "source_table", "type": "nominal" }
+          ]
+        }
+      }
+    }
+  ]
+}
