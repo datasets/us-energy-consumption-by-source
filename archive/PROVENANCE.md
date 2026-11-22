@@ -10,7 +10,7 @@ All files retrieved on 2026-11-22 from www.eia.gov with a generic User-Agent (`d
 | `eia-mer-table-10-1.csv` | https://www.eia.gov/totalenergy/data/browser/csv.php?tbl=T10.01 | `569bf9f38992a668ed788c6a3990434d19eaabab60e5c89ce1ade41f54cd8ea4` |
 
 - The 1635-1945 PDF is dated October 2026. It is EIA's "Estimated primary energy consumption in the United States, selected years, 1635-1945", formerly Monthly Energy Review (MER) Appendix D, Table D1. The MER page (https://www.eia.gov/totalenergy/data/monthly/) says: "We moved Estimated primary energy consumption in the United States, Selected Years, 1635-1945 (Appendix D). You can find these data in a special report", linking to https://www.eia.gov/energyexplained/us-energy-facts/estimated-consumption-1635-1945.php.
-- The two CSVs are from the MER data browser. The MER page showed "Release Date: October 29, 2026" (the October 2026 MER) on the retrieval date. The CSVs carry annual rows (month code 13) for 1949-2025 and monthly rows to July 2026; only annual rows are used. 2025 figures include revisions (marked R in the PDF table) and may be revised again.
+- The two CSVs are from the MER data browser. The MER page showed "Release Date: October 29, 2026" (the October 2026 MER) on the retrieval date. The CSVs carry annual rows (month code 13) for 1949-2025 and monthly rows to July 2026; only annual rows are used. 2025 figures may be revised again.
 - The text extraction is archived so `scripts/build.mjs` can run without a PDF parser. The build checks that every one of the 42 table rows has 9 cells and that the totals add up.
 
 ## Licence

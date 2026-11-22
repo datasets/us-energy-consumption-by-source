@@ -4,7 +4,7 @@ EIA publishes two separate series, and this dataset joins them without filling t
 
 ## What stands out
 
-The US burned less coal in 2025 than in 1905. EIA puts 2025 coal consumption at 8.67 quadrillion Btu, below its estimate of 10.00 for 1905 and 38% of the 2005 peak of 22.80. In 2024 it fell to 7.91, the lowest in the annual series that starts in 1949; the last estimate lower than that is 6.84 for 1900.
+Measured by energy content, the US burned less coal in 2025 than in 1905. EIA puts 2025 coal consumption at 8.67 quadrillion Btu, below its estimate of 10.00 for 1905 and 38% of the 2005 peak of 22.80. In 2024 it fell to 7.91, the lowest in the annual series that starts in 1949; the last estimate lower than that is 6.84 for 1900. By weight the comparison flips: 2025's 452 million short tons (EIA MER Table 6.1) is more than 1905's, because today's coal is lower-grade and carries less energy per ton.
 
 Coal had only taken over from wood in the 1880s: in EIA's estimates wood is ahead in 1880 (2.85 against 2.05 quadrillion Btu) and coal is ahead by 1885 (2.84 against 2.68). The table has no years in between, so the exact year of the crossover is not known.
 
